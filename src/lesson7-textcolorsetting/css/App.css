@@ -1,0 +1,61 @@
+* {
+	transition: all ease .3s;
+}
+
+.panel-primary {
+	border-color: rgba(2, 179, 228)!important;
+}
+.panel-heading {
+	background-color: rgba(2, 179, 228)!important;
+ 	border-color: rgba(2, 179, 228)!important;
+}
+
+#content {
+	border: 2px solid red;
+	color: red;
+	padding: 16px;
+}
+
+.mt-50 {
+	margin-top: 50px;
+}
+
+.mr-16 {
+	margin-right: 16px;
+}
+
+span {
+	padding: 10px 20px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+.active {
+	border: 3px solid rgba(0,0,0,.2);
+	box-shadow: 0 4px 16px 4px rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 16px 24px 0 rgba(17,22,26,.08);
+}
+
+.color--box {
+	box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+	border-radius: 4px;
+	transition: all .3s ease;
+}
+
+.color--box:hover {
+	box-shadow: 0 4px 16px 4px rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 16px 24px 0 rgba(17,22,26,.08);
+}
+
+.custom-btn {
+	box-shadow: 0 0 8px 0 rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 8px 16px 0 rgba(17,22,26,.08);
+	background-color: rgba(2, 179, 228)!important;
+	border-color: rgba(2, 179, 228)!important;
+}
+
+.custom-btn:hover {
+	box-shadow: 0 4px 16px 4px rgba(17,22,26,.16), 0 4px 8px 0 rgba(17,22,26,.08), 0 16px 24px 0 rgba(17,22,26,.08);
+}
+
+.reset-btn {
+	background-color: rgba(2, 179, 228)!important;
+	border-color: rgba(2, 179, 228)!important;
+}
